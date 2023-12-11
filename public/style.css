@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 1280px;
+    /*background-color: black;*/
+    background: linear-gradient(to right, red, pink);
+    color: black;
+}
+
+.navbar {
+    background: linear-gradient(to right, red, pink);
+    border-radius: 2px;
+    max-width: 800px;
+}
+
+* {
+    border-radius: 2px;
+    max-width: 800px;
+    padding: 5px;
+    text-align: center;
+    line-height: 25px;
+    font-family: Arial,sans-serif;
+    font-size: large;
+}
+
+
+#left {
+    border-radius: 2px;
+    max-width: 800px;
+    text-align: center;
+}
+
+#left p {
+    border-radius: 2px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #aaa;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    clip-path: polygon(
+            50% 0%,
+            61.8% 35.3%,
+            95.1% 35.3%,
+            68.2% 57.1%,
+            79.4% 90.9%,
+            50% 72.7%,
+            20.6% 90.9%,
+            31.8% 57.1%,
+            4.9% 35.3%,
+            38.2% 35.3%
+    );
+}
+
+.star:nth-child(1) {
+    top: 10px;
+    left: 70px;
+}
+
+.star:nth-child(2) {
+    top: 40px;
+    left: 90px;
+}
+
+.star:nth-child(3) {
+    top: 40px;
+    left: 40px;
+}
+
+.star:nth-child(4) {
+    top: 70px;
+    left: 70px;
+}
+
+.star:nth-child(5) {
+    top: 70px;
+    left: 40px;
+}
+
+p {
+    color: darkblue;
+}
